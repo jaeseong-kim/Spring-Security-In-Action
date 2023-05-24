@@ -15,8 +15,7 @@
     - Authentication 구현 객체는 UsernamePasswordAuthenticationToken이 있다.
 
 ## SecurityContext 인터페이스
-    - AuthenticationProvider에서 인증이 성공하면,
-      사용자 정보는 SecurityContext에 Authenctication으로 저장된다.
+    - AuthenticationProvider에서 인증이 성공하면, 사용자 정보는 SecurityContext에 Authenctication으로 저장된다.
 
 ## SecurityContextHolder
     - SecurityContext를 관리하는 클래스다.
