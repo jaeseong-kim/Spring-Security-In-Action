@@ -21,6 +21,8 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
   private final UserDetailsService userDetailsService;
 
   private final PasswordEncoder passwordEncoder;
+
+  //매개 변수 authentication은 HTTP 요청에 들어 있는 사용자 정보
   @Override
   public Authentication authenticate(Authentication authentication) throws AuthenticationException {
 
