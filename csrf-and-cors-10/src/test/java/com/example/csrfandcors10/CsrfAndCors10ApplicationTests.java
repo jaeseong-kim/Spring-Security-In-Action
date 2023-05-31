@@ -1,0 +1,13 @@
+package com.example.csrfandcors10;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class CsrfAndCors10ApplicationTests {
+
+  @Test
+  void contextLoads() {
+  }
+
+}
